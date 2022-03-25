@@ -5,9 +5,11 @@ class TestCalculator(unittest.TestCase):
     def setUp(self):
         self.x = 34
         self.y = 36
+        print('Setup is Executed')
     def tearDown(self):
         self.x = 0
         self.y = 0
+        print("TearDown is Executed")
 
 
 
